@@ -202,19 +202,18 @@
     \vspace{-4pt}
 
     \resumeProjectHeading
-        {\textbf{\normalsize\underline{FixEngine}} $|$ \href{https://github.com/DrunkTrader/FixEngine}{\underline{GitHub}} $|$ \footnotesize{\textbf{C++20, CMake, Linux}}}{May 2026 -- Sep 2026}\\
+        {\textbf{\normalsize\underline{ClipIt}} $|$ \href{https://github.com/DrunkTrader/clipIt}{\underline{GitHub}} $|$ \footnotesize{\textbf{Python, Next.js, Docker, FFmpeg}}}{Dec 2025 -- Jan 2026}\\
   \vspace{8pt}
   \resumeItemListStart
-      \resumeItem{Built a zero-allocation \textbf{FIX protocol parsing engine} in C++20 from scratch, implementing a 5-stage pipeline spanning ingestion, tokenization, parsing, validation, and orchestration.}
+      \resumeItem{Designed a concurrent video processing backend, handling multiple clipping requests with collision-free file management.}
       \vspace{2pt}
-      % \resumeItem{Engineered fixed-capacity \texttt{FixMessage<MaxFields=64>} using \texttt{std::string\_view} for zero-copy field representation, avoiding heap allocation on the hot path and achieving $\sim$2.23 ns/op construction and $\sim$7.34 ns/op field lookup in benchmarks.}
-      % \vspace{2pt}
-      \resumeItem{Designed a stateful incremental ingestion buffer for arbitrarily chunked FIX messages, returning explicit \texttt{MessageReady}, \texttt{NeedMoreData}, \texttt{BufferFull}, and \texttt{InvalidMessage} states instead of exception-based control flow.}
+      \resumeItem{Implemented thread-safe ID generation, ensuring deterministic output under parallel workloads.}
       \vspace{2pt}
-      \resumeItem{Implemented \textbf{checksum validation and BodyLength verification} with explicit error types, maintaining a deterministic and allocation-free critical processing path.}
+      \resumeItem{Integrated FFmpeg pipeline for efficient video slicing, reducing processing overhead.}
       \vspace{2pt}
-      % \resumeItem{Shipped 7 test targets with a \textbf{100\% pass rate} covering tokenization, parsing, validation, storage layout, incremental ingestion, and FixEngine integration, built with CMake on Linux.}
-  \resumeItemListEnd
+      \resumeItem{Deployed containerized service using Docker, enabling reproducible builds and scalable execution.}
+      \vspace{2pt}
+    \resumeItemListEnd
     \vspace{-6pt}
 
      \resumeProjectHeading

@@ -1,0 +1,315 @@
+%-------------------------
+% Resume in Latex
+% Author : Neeraj Kumar
+% github: https://github.com/drunktrader/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{hyperxmp}
+
+\hypersetup{
+  pdftitle={Neeraj Kumar - Resume},
+  pdfauthor={Neeraj Kumar},
+  pdfauthortitle={Software Engineer},
+  pdfsubject={Software Engineer Resume - C++, TypeScript, Node.js, React},
+  pdfkeywords={
+    C, C++, Python, JavaScript, TypeScript, MySQL,
+    React, Next.js, Express, Prisma, Qt, PostgreSQL, MongoDB, Redis,
+    WebSockets, WebRTC, Firebase, Docker, Linux, UNIX, REST APIs, TCP/IP,
+    Git, Nginx, GitHub Actions, Vercel, Postman,
+    Data Structures, Algorithms, System Design, Distributed Systems,
+    Software Engineer, SDE, Full Stack, Backend, Frontend,
+    Surat, Jodhpur, India, Open to Work,
+    drunktrader
+  },
+  pdfcreator={pdflatex},
+  pdfproducer={Neeraj Kumar},
+  pdflang={en-US},
+  pdfmetalang={en-US},
+  pdfcontactaddress={New Delhi - India},
+  pdfcontactemail={reachoutneerajkumar@gmail.com},
+  pdfcontacturl={https://www.drunktrader.dev/},
+  pdfcopyright={Copyright 2026-\the\year\ Neeraj Kumar.},
+  pdfurl={https://www.drunktrader.dev/},
+  pdfpubtype={other},
+}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{amsmath}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\small\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small#1} & \textbf{\small #2} \\
+      \text{\small#3} & \text{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-12pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-8pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape Neeraj Kumar} \\ \vspace{1pt}
+    \small \href{tel:+91-8800119639}{\underline{+91-8800119639}} ~ 
+    \href{mailto:reachoutneerajkumar@gmail.com}{\underline{reachoutneerajkumar@gmail.com}} ~ 
+    \href{https://www.drunktrader.dev/}{\underline{Portfolio}} ~ 
+    \href{https://linkedin.com/in/drunktrader}{\underline{LinkedIn}} ~
+    \href{https://github.com/drunktrader}{\underline{GitHub}} ~
+    \href{https://leetcode.com/u/itsneerajkumar/}{\underline{LeetCode}} ~ 
+\end{center}
+\vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Guru Gobind Singh Indraprastha University, New Delhi}{Nov 2022 -- Jul 2026}
+      {\textbf{Bachelor's Degree} - Automation \& Robotics - \textbf{CGPA} - \textbf{7.00}}{New Delhi}
+  \resumeSubHeadingListEnd
+  \vspace{-10pt}
+
+%------TECHNICAL SKILLS-------
+
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\small{Languages:}}{  \small{C++17/20, C, Python, JavaScript}} \\ \vspace{1pt}
+     \textbf{\small{Technologies/Frameworks:}}{  \small{React, Node.js, Express, PostgreSQL, MongoDB, Redis, WebSockets, Firebase, Docker, Linux/UNIX environments, REST APIs, TCP/IP}} \\ \vspace{1pt}
+     \textbf{\small{Tools:}}{  \small{Git, Nginx, GitHub Actions, Vercel, Postman, VS Code}} \\ \vspace{1pt}
+     \textbf{\small{Core Competencies:}}{  \small{Data Structures and Algorithms, Object-Oriented Programming, Operating Systems, System Design, Distributed Systems}} \\
+    }}
+ \end{itemize}
+
+ \vspace{-10pt}
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+\vspace{2pt}
+  \resumeSubHeadingListStart
+
+    % \resumeSubheading
+    %   {\normalsize{\underline{Google Summer of Code 2026}} }{May 2026 -- Aug 2026}
+    %   {{\normalsize{\textbf{\underline{Kdenlive @KDE Community}}}} $|$ Open Source Contributor, C++ and Qt}{Remote}
+    %   \vspace{-5pt}
+    %   \resumeItemListStart
+    %     \resumeItem{Secured selection for \textbf{GSoC 2026} among 1,200 global contributors to implement Kdenlive's \textbf{RGB curve editor, gradient editor, and speed ramp widgets} in C++ and Qt.}
+    %     \vspace{2pt}
+    %     \resumeItem{Integrated \textbf{20 contributions} across Kdenlive and upstream repositories, resolving an \textbf{11-year-old bug} via a gap-detection algorithm shipping to \textbf{41,000 monthly Flathub installs}.}
+    %   \resumeItemListEnd
+
+      \resumeSubheading  
+      {\normalsize\underline{Outlier - Code Reviewer \& AI Data Annotator}}{Mar 2026 -- Apr 2026}
+        {{\normalsize\textbf{\underline{Freelance}}}}{Remote}
+        \vspace{-2pt}
+        \resumeItemListStart
+          \resumeItem{Reviewed and evaluated AI-generated code and technical responses for correctness, logic, edge cases, and adherence to task requirements.}
+          \vspace{3pt}
+          \resumeItem{Annotated and ranked model outputs, identifying logical errors, inefficient implementations, and inconsistencies to improve code-generation quality.}
+          \vspace{3pt}
+          \resumeItem{Applied structured evaluation criteria across programming and technical tasks, providing detailed feedback and corrected solutions.}
+        \resumeItemListEnd 
+
+  \resumeSubHeadingListEnd
+\vspace{-6pt}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{2pt}
+    \resumeSubHeadingListStart
+    \vspace{-4pt}
+
+    \resumeProjectHeading
+        {\textbf{\normalsize\underline{FixEngine}} $|$ \href{https://github.com/DrunkTrader/FixEngine}{\underline{GitHub}} $|$ \footnotesize{\textbf{C++20, CMake, Linux}}}{May 2026 -- Sep 2026}\\
+  \vspace{8pt}
+  \resumeItemListStart
+      \resumeItem{Built a zero-allocation \textbf{FIX protocol parsing engine} in C++20 from scratch, implementing a 5-stage pipeline spanning ingestion, tokenization, parsing, validation, and orchestration.}
+      \vspace{2pt}
+      % \resumeItem{Engineered fixed-capacity \texttt{FixMessage<MaxFields=64>} using \texttt{std::string\_view} for zero-copy field representation, avoiding heap allocation on the hot path and achieving $\sim$2.23 ns/op construction and $\sim$7.34 ns/op field lookup in benchmarks.}
+      % \vspace{2pt}
+      \resumeItem{Designed a stateful incremental ingestion buffer for arbitrarily chunked FIX messages, returning explicit \texttt{MessageReady}, \texttt{NeedMoreData}, \texttt{BufferFull}, and \texttt{InvalidMessage} states instead of exception-based control flow.}
+      \vspace{2pt}
+      \resumeItem{Implemented \textbf{checksum validation and BodyLength verification} with explicit error types, maintaining a deterministic and allocation-free critical processing path.}
+      \vspace{2pt}
+      % \resumeItem{Shipped 7 test targets with a \textbf{100\% pass rate} covering tokenization, parsing, validation, storage layout, incremental ingestion, and FixEngine integration, built with CMake on Linux.}
+  \resumeItemListEnd
+    \vspace{-6pt}
+
+     \resumeProjectHeading
+    {\textbf{\normalsize{\underline{RedisCLI}}} $|$ \href{https://github.com/drunktrader/RedisCLI}{\underline{GitHub}} $|$ \footnotesize{\textbf{C++17, POSIX Sockets, RESP2}}}{Jan 2026 -- May 2026}\\
+    \vspace{8pt}
+    \resumeItemListStart
+        \resumeItem{Built a Redis CLI client from scratch in \textbf{C++17}, implementing the full \textbf{RESP2} protocol serializer and parser.}
+        \vspace{2pt}
+        \resumeItem{Implemented event-driven Pub/Sub mode using poll() to multiplex stdin and Redis socket simultaneously - streaming published messages while keeping terminal input responsive via GNU Readline callback API.}
+        \vspace{2pt}
+        % \resumeItem{Orchestrated \textbf{4 services} with Docker Compose, configuring an Nginx reverse proxy and GitHub Actions pipeline to enable zero-downtime deployments.}
+    \resumeItemListEnd
+    \vspace{-6pt}
+
+    \resumeProjectHeading
+    {\textbf{\normalsize{\underline{Options Pricing Simulator}}} $|$ \href{https://github.com/DrunkTrader/options-pricing-model}{\underline{GitHub}} $|$ \footnotesize{\textbf{Python, SciPy, NumPy}}}{Jan 2026 -- Apr 2026}\\
+    \vspace{8pt}
+    \resumeItemListStart
+        \resumeItem {Developed a \textbf{Monte Carlo} simulation engine to price \textbf{European Options} with configurable simulation runs.}
+        \vspace{2pt}
+        \resumeItem{Validated results against Black-Scholes analytical model, achieving \textbf{$<$0.03} pricing deviation at \textbf{10,000} simulations.}
+        \vspace{2pt}
+        \resumeItem{Computed option sensitivities : Delta ($\Delta$), Vega ($\nu$), Gamma ($\Gamma$), and Theta ($\Theta$) - to support quantitative risk analysis.}
+        \vspace{2pt}    
+    \resumeItemListEnd 
+    \vspace{-6pt}
+
+    \resumeProjectHeading
+    {\textbf{\normalsize{\underline{Discord-Vault}}} $|$ \href{https://github.com/DrunkTrader/discord-vault}{\underline{GitHub}} $|$ \footnotesize{\textbf{Python, SHA256 }}}{Jan 2026 -- Apr 2026}\\
+    \vspace{8pt}
+    \resumeItemListStart
+        \resumeItem{Developed a secure Discord-based file vault for storing and retrieving encrypted files through a bot interface.}
+        \vspace{2pt}
+        \resumeItem{Implemented SHA-256 based integrity verification to detect file tampering and ensure data consistency.}
+        \vspace{2pt}
+        \resumeItem{Implemented lossless PNG compression and decompression, reducing image storage overhead while preserving pixel-perfect data integrity.}
+        \vspace{2pt}
+        \resumeItem{Automated file upload, retrieval, and vault management through Discord commands, eliminating the need for a dedicated frontend.}
+        \vspace{2pt}    
+    \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+% %-----------COURSEWORK-----------
+% \section{\large{COURSEWORK}}
+%         \begin{multicols}{3}
+%             \begin{itemize}[itemsep=-2pt, parsep=2pt]
+        
+%                 \item\small Data Structures and Algorithms
+%                 \item\small Object-Oriented Programming
+%                 \item\small Operating Systems
+
+%                 \item\small Database Management Systems
+
+%                 \item\small Software Engineering
+%                 \item\small Machine Learning
+%                 \item\small Discrete Mathematics
+
+%                 \item\small Pattern Recognition
+%                 \item\small Probability and Statistics
+          
+%             \end{itemize}
+%         \end{multicols}
+%  \vspace{-16pt}
+\section{CERTIFICATIONS}
+        \begin{itemize}[leftmargin=0.15in]
+                \resumeItem{\textbf{Postman API Fundamentals Student Expert} - \href{https://badges.parchment.com/public/assertions/lIxz4kcZQTaRUQtREJsZpQ?utm_source=url_copy&identity__email=neerajrajputa786\%40gmail.com}{\textbf{\underline{Postman}}}}
+                \vspace{2pt}
+                \resumeItem{\textbf{Career Essentials in GitHub Professional Certificate} - \href{https://www.linkedin.com/learning/certificates/4a85c6690468afa066f430fa525001ebcffd6e3c5325a0a975996129719e2c53?trk=share_certificate}{\textbf{\underline{LinkedIn Learning}}}}
+                \vspace{2pt}
+                \resumeItem{\textbf{Software Engineering Job Simulation (JPMorgan Chase \& Co.)} - \href{https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_aogdzJM8wDbRy2ZC2_1750582758154_completion_certificate.pdf}{\textbf{\underline{Forage}}}}
+        \end{itemize}
+ \vspace{-8pt}  
+
+%-----------ACHIEVEMENTS-----------
+ \section{ACHIEVEMENTS \& EXTRACURRICULARS}
+          \begin{itemize}[leftmargin=0.15in]
+                \resumeItem{Achieved Max Rating of \textbf{1614} on \href{https://leetcode.com/u/itsneerajkumar/}{\textbf{\underline{LeetCode}}}; solved \textbf{300+} algorithmic problems on LeetCode in C++.}
+                \vspace{2pt}
+                \resumeItem{Achieved Global Rating of \textbf{123} on CodeChefs and max rating of \textbf{1159} on \href{https://codeforces.com/profile/itsneerajkumar}{\textbf{\underline{Codeforces}}}.}
+                \vspace{2pt}
+                \resumeItem{Represented the college Volleyball team in inter-collegiate tournaments and secured \textbf{3rd place}.}
+                % \resumeItem{Merged \textbf{84+ open-source contributions} across GitHub and GitLab, shipping features and bug fixes to \href{https://invent.kde.org/multimedia/kdenlive}{\textbf{\underline{Kdenlive}}}, \href{https://github.com/vitest-dev/vitest}{\textbf{\underline{Vitest}}}, \href{https://github.com/wagtail/wagtail}{\textbf{\underline{Wagtail}}}, and \href{https://github.com/schollz/croc}{\textbf{\underline{croc}}}.}
+          \end{itemize}
+ \vspace{-8pt}
+
+% %-----------LEADERSHIP-----------
+%  \section{LEADERSHIP}
+%           \begin{itemize}[leftmargin=0.15in]
+%                 \resumeItem{\textbf{Junior Core Team Member} at DevlUp Labs, IIT Jodhpur; mentored 30 students and facilitated 2 open-source workshops.}
+%                 \vspace{2pt}
+%                 \resumeItem{\textbf{Core Member} at E-Cell, IIT Jodhpur; supported 3 entrepreneurship events and initiatives over 9 months.}
+%                 \vspace{2pt}
+%                 \resumeItem{\textbf{Core Member} at Programming Club, IIT Jodhpur; co-organized 5 contests and 10 sessions on competitive programming.}
+%           \end{itemize}
+ 
+ \end{document}

@@ -1,0 +1,11 @@
+# LaTeX generated files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Keep source and compiled PDF
+!*.tex
+!*.pdf

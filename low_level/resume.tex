@@ -181,7 +181,7 @@
     %   \resumeItemListEnd
 
       \resumeSubheading  
-      {\normalsize\underline{Outlier - Code Reviewer \& AI Data Annotator}}{Mar 2026 -- Apr 2026}
+      {\normalsize\underline{Outlier - AI Code Reviewer \& Data Annotator}}{Mar 2026 -- Apr 2026}
         {{\normalsize\textbf{\underline{Freelance}}}}{Remote}
         \vspace{-2pt}
         \resumeItemListStart
@@ -202,16 +202,16 @@
     \vspace{-4pt}
 
     \resumeProjectHeading
-        {\textbf{\normalsize\underline{FixEngine}} $|$ \href{https://github.com/DrunkTrader/FixEngine}{\underline{GitHub}} $|$ \footnotesize{\textbf{C++20, CMake, Linux}}}{May 2026 -- Sep 2026}\\
+        {\textbf{\normalsize\underline{FixEngine}} $|$ \href{https://github.com/DrunkTrader/FixEngine}{\underline{GitHub}} $|$ \footnotesize{\textbf{C++20, CMake, Linux, TCP/IP}}}{May 2026 -- Aug 2026}\\
   \vspace{8pt}
   \resumeItemListStart
-      \resumeItem{Built a zero-allocation \textbf{FIX protocol parsing engine} in C++20 from scratch, implementing a 5-stage pipeline spanning ingestion, tokenization, parsing, validation, and orchestration.}
+      \resumeItem{Built a low-allocation FIX protocol parsing engine in \textbf{C++20} with a 6-stage pipeline spanning ingestion, tokenization, parsing, validation, formatting, and orchestration.}
       \vspace{2pt}
       % \resumeItem{Engineered fixed-capacity \texttt{FixMessage<MaxFields=64>} using \texttt{std::string\_view} for zero-copy field representation, avoiding heap allocation on the hot path and achieving $\sim$2.23 ns/op construction and $\sim$7.34 ns/op field lookup in benchmarks.}
       % \vspace{2pt}
-      \resumeItem{Designed a stateful incremental ingestion buffer for arbitrarily chunked FIX messages, returning explicit \texttt{MessageReady}, \texttt{NeedMoreData}, \texttt{BufferFull}, and \texttt{InvalidMessage} states instead of exception-based control flow.}
+      \resumeItem{Designed bounded, zero-copy message storage using fixed-capacity containers and \texttt{std::string\_view}; benchmarked core operations at approximately \textbf{$\sim2$ ns/op}.}
       \vspace{2pt}
-      \resumeItem{Implemented \textbf{checksum validation and BodyLength verification} with explicit error types, maintaining a deterministic and allocation-free critical processing path.}
+      \resumeItem{Implemented \textbf{checksum} and \textbf{body length validation} with explicit error types, maintaining deterministic, exception-free control flow on the normal processing path.}
       \vspace{2pt}
       % \resumeItem{Shipped 7 test targets with a \textbf{100\% pass rate} covering tokenization, parsing, validation, storage layout, incremental ingestion, and FixEngine integration, built with CMake on Linux.}
   \resumeItemListEnd
@@ -221,9 +221,9 @@
     {\textbf{\normalsize{\underline{RedisCLI}}} $|$ \href{https://github.com/drunktrader/RedisCLI}{\underline{GitHub}} $|$ \footnotesize{\textbf{C++17, POSIX Sockets, RESP2}}}{Mar 2026 -- Apr 2026}\\
     \vspace{8pt}
     \resumeItemListStart
-        \resumeItem{Built a Redis CLI client from scratch in \textbf{C++17}, implementing the full \textbf{RESP2} protocol serializer and parser.}
+        \resumeItem{Built a Redis CLI client from scratch in \textbf{C++17}, implementing the \textbf{RESP2} protocol \textbf{serializer} and \textbf{parser}.}
         \vspace{2pt}
-        \resumeItem{Implemented event-driven Pub/Sub mode using poll() to multiplex stdin and Redis socket simultaneously - streaming published messages while keeping terminal input responsive via GNU Readline callback API.}
+        \resumeItem{Implemented event-driven \textbf{Pub/Sub} mode using \textbf{poll()} to multiplex stdin and Redis socket simultaneously - streaming published messages while keeping terminal input responsive via GNU Readline callback API.}
         \vspace{2pt}
         % \resumeItem{Orchestrated \textbf{4 services} with Docker Compose, configuring an Nginx reverse proxy and GitHub Actions pipeline to enable zero-downtime deployments.}
     \resumeItemListEnd
@@ -248,7 +248,7 @@
     \resumeItemListStart
         \resumeItem{Developed a secure Discord-based file vault for storing and retrieving encrypted files through a bot interface.}
         \vspace{2pt}
-        \resumeItem{Implemented SHA-256 based integrity verification to detect file tampering and ensure data consistency.}
+        \resumeItem{Implemented \textbf{SHA-256} based integrity verification to detect file tampering and ensure data consistency.}
         \vspace{2pt}
         \resumeItem{Implemented lossless PNG compression and decompression, reducing image storage overhead while preserving pixel-perfect data integrity.}
         \vspace{2pt}
